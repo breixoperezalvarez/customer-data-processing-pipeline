@@ -1,7 +1,12 @@
 __pycache__/
 *.pyc
-output/
-data/processed/
+
+output/*
+!output/summary_report.txt
+
+data/processed/*
+!data/processed/cleaned_customers.csv
+
 .venv/
 venv/
 .env

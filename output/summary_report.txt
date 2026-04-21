@@ -1,0 +1,63 @@
+CUSTOMER DATA PROCESSING REPORT
+========================================
+
+Rows before cleaning: 100000
+Rows after cleaning: 99995
+Rows removed: 5
+
+Columns after processing:
+- index
+- customer_id
+- first_name
+- last_name
+- company
+- city
+- country
+- phone_1
+- phone_2
+- email
+- subscription_date
+- website
+- full_name
+- name_length
+- email_domain
+- has_company
+- subscription_year
+
+Missing values after cleaning:
+- index: 0
+- customer_id: 0
+- first_name: 0
+- last_name: 0
+- company: 0
+- city: 0
+- country: 0
+- phone_1: 0
+- phone_2: 0
+- email: 0
+- subscription_date: 0
+- website: 0
+- full_name: 0
+- name_length: 0
+- email_domain: 0
+- has_company: 0
+- subscription_year: 0
+
+Top 5 countries:
+- Congo: 835
+- Korea: 820
+- Saudi Arabia: 463
+- Pitcairn Islands: 456
+- Saint Martin: 453
+
+Top 5 email domains:
+- mckee.com: 59
+- pugh.com: 59
+- terrell.com: 57
+- lawrence.com: 57
+- gaines.com: 56
+
+Subscriptions by year:
+- 2020: 41895
+- 2021: 41209
+- 2022: 16891
