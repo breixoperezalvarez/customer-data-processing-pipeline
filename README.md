@@ -68,15 +68,21 @@ country, phone_1, phone_2, email, subscription_date, website
 
 ## Example Results
 
-- Rows before cleaning: 100000  
-- Rows after cleaning: (replace with your result)  
-- Rows removed: (replace with your result)  
+- Rows before cleaning: 100000
+- Rows after cleaning: 99995
+- Rows removed: 5
 
-### Sample Insights
+Top 5 countries:
+- Congo: 835
+- Korea: 820
+- Saudi Arabia: 463
+- Pitcairn Islands: 456
+- Saint Martin: 453
 
-- Top countries by customer count  
-- Most common email domains  
-- Subscription trends over time  
+Subscriptions by year:
+- 2020: 41895
+- 2021: 41209
+- 2022: 16891
 
 ---
 
