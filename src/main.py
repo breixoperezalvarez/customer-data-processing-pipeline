@@ -26,7 +26,7 @@ def main() -> None:
     report_file_path = "output/summary_report.txt"
 
     os.makedirs("data/processed", exist_ok=True)
-    os.makedirs("output", exists_ok=True)
+    os.makedirs("output", exist_ok=True)
 
     df = load_csv(raw_file_path)
 

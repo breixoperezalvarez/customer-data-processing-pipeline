@@ -51,5 +51,5 @@ def generate_report(df_before: pd.DataFrame, df_after: pd.DataFrame, output_path
             lines.append(f"- {year}: {count}")
 
     # Write file
-    with open(output_path, "w", encoding="uft-8") as file:
+    with open(output_path, "w", encoding="utf-8") as file:
         file.write("\n".join(lines))

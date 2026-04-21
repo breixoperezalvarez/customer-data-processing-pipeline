@@ -70,7 +70,7 @@ def remove_duplicates(df: pd.DataFrame) -> pd.DataFrame:
 def convert_dates(df: pd.DataFrame) -> pd.DataFrame:
     """Convert subscription_date to datetime format"""
     if "subscription_date" in df.columns:
-        df["subscription_date"] = df.to_datetime(
+        df["subscription_date"] = pd.to_datetime(
             df["subscription_date"],
             errors="coerce"
         )
